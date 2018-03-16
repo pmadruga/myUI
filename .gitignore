@@ -54,6 +54,18 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+# yarn log
+.yarn-error.log
+
 # dotenv environment variables file
 .env
 
+# production
+/build
+/dist
+
+# cache
+.cache/
+
+# editor
+.vscode
