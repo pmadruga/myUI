@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Button } from '../lib/Button';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Button } from '../lib/Button'
 
 const App = () => (
   <div>
@@ -9,6 +9,6 @@ const App = () => (
     <p>Here's an example of button.</p>
     <Button text="Click me!" />
   </div>
-);
+)
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'))

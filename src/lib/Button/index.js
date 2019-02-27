@@ -1,4 +1,6 @@
-import React from "react";
-const Button = ({ text }) => <button>{text}</button>;
+import React from 'react'
+import ButtonStyled from './styles'
 
-export { Button };
+const Button = ({ text }) => <ButtonStyled>{text}</ButtonStyled>
+
+export { Button }
