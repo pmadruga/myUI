@@ -6,8 +6,7 @@
   "scripts": {
     "start": "./node_modules/.bin/parcel src/docs/index.html",
     "build": "./node_modules/.bin/webpack --mode=production",
-    "build:docs":
-      "./node_modules/.bin/parcel build src/docs/index.js -d ./dist/docs && cp src/docs/index.html dist/docs/index.html"
+    "build:docs": "./node_modules/.bin/parcel build src/docs/index.js -d ./dist/docs && cp src/docs/index.html dist/docs/index.html"
   },
   "author": "Pedro Madruga",
   "license": "MIT",
